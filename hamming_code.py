@@ -110,6 +110,7 @@ def double_error_detection(code_list):
             code_list[error_pos] = 1 - code_list[error_pos]
             return code_list
 
+
 if __name__ == "__main__":
     code_list = hamming([1, 0, 0, 1, 1, 0, 1])
     print(code_list)
